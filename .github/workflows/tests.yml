@@ -21,6 +21,8 @@ jobs:
            bundler-version: default
          - ruby-version: 3.1.2
            bundler-version: default
+         - ruby-version: 'truffleruby-head'
+           bundler-version: default
     steps:
     - uses: actions/checkout@v3
     - name: Set up Ruby ${{ matrix.ruby-version }}
